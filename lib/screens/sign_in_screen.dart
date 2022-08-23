@@ -1,3 +1,4 @@
+import 'package:b2bx/screens/main_screen.dart';
 import 'package:b2bx/screens/sign_up_screen.dart';
 import 'package:b2bx/utils/app_strings.dart';
 import 'package:b2bx/utils/next_screen.dart';
@@ -111,6 +112,7 @@ class _SignInScreenState extends State<SignInScreen> {
                         style: TextStyle(fontSize: 16, color: Colors.white)),
                     onPressed: () {
                       // handleSignInwithemailPassword();
+                      nextScreen(context, MainScreen());
                     }),
               ),
               SizedBox(

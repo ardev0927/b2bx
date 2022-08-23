@@ -11,7 +11,11 @@ class Config {
   static const String twitterUrl = 'https://twitter.com/FlutterDev';
 
   //app theme color
-  final Color appColor = const Color(0xff00a275);
+  final appColor = const Color(0xff00a275);
+  final bg10Color = Colors.grey[900];
+  final bg20Color = Colors.grey[800];
+  final text20Color = const Color(0xff45b68b);
+  final text10Color = const Color(0xff8a8d96);
 
   //Intro images
   final String introImage1 = 'assets/images/news1.png';
