@@ -101,7 +101,7 @@ class _MainScreenState extends State<MainScreen> {
                     child: tabItem(0, 'Dashboard', Icons.dashboard_outlined)),
                 Expanded(child: tabItem(1, 'Wallet', Icons.wallet_outlined)),
                 Expanded(child: tabItem(2, 'Trade', Icons.dashboard_outlined)),
-                Expanded(child: tabItem(3, 'More', Icons.more)),
+                Expanded(child: tabItem(3, 'More', Icons.more_horiz)),
                 // tabItem(2, 'assets/images/notifications.svg'),
                 // tabItem(3, 'assets/images/manage_accounts.svg'),
               ],

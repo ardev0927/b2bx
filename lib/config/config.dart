@@ -16,6 +16,7 @@ class Config {
   final bg20Color = Colors.grey[800];
   final text20Color = const Color(0xff45b68b);
   final text10Color = const Color(0xff8a8d96);
+  final text30Color = Colors.white;
 
   //Intro images
   final String introImage1 = 'assets/images/news1.png';
